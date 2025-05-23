@@ -12,3 +12,7 @@ initial stage or working stage:
    command is "git init". here here will be initalised empty repository but will not track any files
 
 staging area: command is "git add ." or git add filename". it is used to add that file or all into git tracking
+
+commit area or local repository stage : it is used to save the data as a version. Every git commit should contain a message so that anytime we can understand why that commit happened
+
+   git commit -m "message" 
