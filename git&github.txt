@@ -27,3 +27,11 @@ setup details:
 
 
 Before you push , make you added all and commited all
+
+connect repository link to local repository:
+
+   git remote add origin "link of github repo with .git"
+
+Pushing into github:
+   
+   git push -u origin main
