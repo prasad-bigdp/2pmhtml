@@ -1,0 +1,178 @@
+Forms are used to collect user's data and make user interactive easy. 
+eg: contact forms , signup, login, forgot password, email subscribe, feedback etc..,
+forms can be inserted into HTML using 'form' tag. form tags contains several input elements as childern. 
+  ' input' is a self closing tag which contains following attributes
+  placeholder - it is used to make the user understand what needs to be entered in input
+  value : it represents value of input that user types or pre defined
+  Every input or any other element in HTML will have an unique value called id. Id's of now two elements are sane and also Every element must contain only one ID.
+
+  Every ID can be connected with label using label, for attributer
+  <label for="chitti">Enter your name:</label>
+    <label for="chitti">Enter your name:</label>
+        <input type="text" id="bujji"><br><br>
+        <input type="text" id="chitti">
+
+<div>
+        <label for="nam">Enter full name: </label>
+        <input type="text" placeholder="eg: Durga Prasad etc..," id="nam">
+       </div>
+       <br>
+       <div>
+        <label for="em">Enter Email: </label>
+        <input type="email" placeholder="eg: xyz@gmail.com etc..," id="em">
+       </div><br>
+       <div>
+        <label for="em">Enter Password: </label>
+        <input type="password" placeholder="eg: xyz@gmail.com etc..," id="em">
+       </div>
+
+To pass the values to the backend / server, we use action attribute in form
+<form action="url" /> 
+Each attribute is sent wither as GET or POST request. Enery element/input elements should have 'name' attribute to send the data
+  <form method="GET/POST"></form>
+
+GET will mention form details in the URL after form is submitted
+POST will not mention form details in the URL after form is submitted
+
+
+Different types of Inputs:
+  text   -- it is used to enter textual info such as username, profile names etc..,
+  email  -- it is used to collect email data and by default it validates @ for emails
+  password- it is used to collect password data and by default text is hidden
+  number -- it is used to accept only number values and used for ages, phone numbers etc..,
+  color  --  it is used to pick a color and used for color based applications
+  file  -- it is used to upload a file and used to file handling and can prefer specific formats by using attribute "accept"
+  date  -- it is used to select specific date and useful for DOB,DOJ etc..,
+  datetime - local : it is used to select data and time simultaneously 
+  time -- it is used to select specific time
+  week  -- it is used to select specific week of year
+  month  -- it is used to select month along year.
+  hidden -- it is used to submit certain data by hiding the input. 
+  button -- it is used to create an input of type button used for general button purposes.
+  this is same as button element but button element contains data between open and close tags and this input contains data in value attribute
+     <button type="button">click me</button>
+     <input type="button" value="click me" />
+  submit -- it is used to submit the form data , similar to button type 'submit'
+  reset -- it is used to reset the form data , similar to button type 'reset'
+  search -- it is used to search the data , by default on enter submits the form
+  radio  -- radio is used to accepts inputs as radio buttons and it will accept only one option out of all. The name of all options of similar purpose should be same
+			<input type="radio" name="gender"  id="m" value="male" />
+			<label for="m">Male</label>
+			<input type="radio" name="gender" id="f" value="female" />
+			<label for="f">Female</label>
+  checkbox -- checkbox is used to select multiple options out of possible.The name of all options of similar purpose should be same
+      	<input type="checkbox" name="lang"  id="en" value="English" />
+			<label for="en">Male</label>
+			<input type="chexkbox" name="lang" id="te" value="Telugu" />
+			<label for="te">Telugu</label>
+  Drop Downs: we can even declare dropdown of options. it is used to slect one or multiple options out of huge number of options
+    we can use select tag for all option. Each option conatins option data and its value attribute
+    options can be grouped using optgroup
+    <select  name="course"  id="" multiple>
+        <option value="">select any course</option>
+				<optgroup label="programming">
+					<option value="java">JAVA</option>
+					<option value="python">Python</option>
+					<option value="c#">C#</option>
+					<option value="js">Javascript</option>
+					<option value="c">C</option>
+				</optgroup>
+        
+				<optgroup label="databases">
+					<option value="mySQL">MySQL</option>
+					<option value="MongoDB">MongoDB</option>
+				</optgroup>
+				<optgroup label="FRONTEND">
+					<option value="react">React</option>
+					<option value="angular">Angular</option>
+				</optgroup>
+			</select>
+
+Text Area: it is used to accept large text of data. we can fix it height or width using rows or cols
+
+
+Form Validation:  Before validation, we can even use fieldset to combine all input fields to have a frame and we can give a title to it using legend
+<form action="login.java">
+       <fieldset>
+        <legend>Login Form</legend>
+        <div>
+           <label for="em">Enter Email:</label>
+           <input type="email" name="em" id="em" />
+        </div><br>
+        <div>
+         <label for="pwd">Enter Password:</label>
+           <input type="password" name="pwd" id="pwd" />
+        </div><br>
+        <button>Login</button>
+       </fieldset>
+</form>
+HTML forms can perform basic validations to input elements using special attributes
+    i. required: It makes the input required, so that form will not submit until data is written in it    
+    ii. min/max : these attributes are used to specify minimum or maximum value to be entered else it won't submit the form
+    iii. minlength or maxlength : These attributes are used to specify minimum length or maximum length of data
+    iv. readonly : it is used to make the data readonly so that users cannot edit it
+     v. disabled: it is used to make the input disabled so that its data won't be submitted
+     vi. pattern: patterns are used to check whether given data is matching with specific regular expression or not. They are also called "regex"
+
+     [] -- it is used for group of characters
+     {} -- it is used for length of characters
+         {10} -- exact 10 characters
+         {10,} -- atleast 10 characters
+         {10,20} -- from 10 to 20 characters
+    a-z -- lower alphabets, A-Z -- uppercase alphabets , 0-9 -- numbers
+    \d is for digits, \w is for words , \c is for characters, \s - space
+    [0-9]{10} -- This is pattern for phone numbers
+    ^  -- is used for negation
+    ? -- it represented o or 1 repeatition
+       -- [a-z]? --> no small letters or one small letters
+    + -- it represents one or more repeatition
+        -- [a-z]+ --> atleast one lowercase
+    * -- it represents zero or more repeatition
+        -- [a-z]* --> zero or more number of lowercase
+    . -- period is used to replace any character
+    \ -- used for escaping
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

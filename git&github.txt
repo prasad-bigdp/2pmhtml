@@ -1,0 +1,14 @@
+Git : Git is a version control system.  it uses distributed management. it tracks the data and saves it with different version. Git is developed and maintained by Oracle. 
+How to download git ?
+   --> goto google type "git download for windows"
+       (https://git-scm.com/downloads)
+   --> download and click next until install(check for editor - vscode)
+   --> goto cmd , "git -v"
+
+How to work with git?
+   Git will have multiple stages such as
+
+initial stage or working stage: 
+   command is "git init". here here will be initalised empty repository but will not track any files
+
+staging area: command is "git add ." or git add filename". it is used to add that file or all into git tracking

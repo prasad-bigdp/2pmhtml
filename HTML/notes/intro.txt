@@ -1,0 +1,60 @@
+Requirements: Browser , visual studio code
+why only visual code?
+       Visual code is a open source, free code editor developed by Microsoft. it have huge community of developers. It also have lot of extensions to make our works easy.
+1. goto https://code.visualstudio.com/download and download as per OS.
+2. Install VScode and open 
+3. file -- > open folder -->create files and explore the options.
+
+HTML (Hypertext Markup Language): it is used to create structure / skeleton of the web page.
+In HTML everything is made up of tags. Every element of HTML is between open and closed tags.
+open tag is similar to <tagname>
+closed tag is similar to </tagname>
+Complete HTML element contains two other elements such ad head and body
+Basically an element is nothing but content between open and closed tags
+element = open tag + content + closed tag
+<html>
+   <head>
+      <title></title>
+   </head>
+   <body>
+
+   </body>
+</html>
+
+head is used for the meta data 
+body is used for the actual content of the website
+HTML is a non case sensitive  Language
+In HTML , we can give comments using <!--     and ends with -->
+
+VScode provides some shortcuts to generate template codes called "emmets"
+
+emmet for HTML template code is !+enter or HTML:5+enter
+We provide some gap on left side of elements for more readability of code called indentation.for better indentation, we can use extension "prettier"
+
+Attributes: Every HTML element will contain some properties to make them work more efficiently called Attributes
+eg:<Human name="prasad" id="214569"></Human>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

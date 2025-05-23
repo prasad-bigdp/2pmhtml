@@ -1,0 +1,8 @@
+HTML5 is the latest versiob of HTML which is used to create structre of web page. 
+New features in HTML5:
+--> semantic element. it added semantic elements such as header, footer, nav, main,section , aside
+--> HTML elements also added media elements like video and <audio src=""></audio>
+--> canvas element: it is used to create dynamic graphics or charts in web pages
+-->drag n drop: each element by default non draggable but we can make it draggable using draggable=true
+-->svg  - scalable vector graphics
+many image formats like jpg, jpeg,png,webp,avif, gif are existed but svg makes image better 

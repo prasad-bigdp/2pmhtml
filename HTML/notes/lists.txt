@@ -1,0 +1,85 @@
+Lists are used to list out certain items.
+eg: shopping lists, contact list, bucket list , wishlist, grocery list, todo list etc..,
+lists are primarily three types . They are:
+  i. ordered lists
+  ii. unordered lists
+  iii. Definition lists
+
+i. ordered lists: These lists are used to display items in an order. whole list is represented by 'ol' tag and each item is represented by 'li' tag
+<ol>
+   <li>item1</li>
+   <li>item2</li>
+   <li>item3</li>
+</ol>
+
+
+ol contains two attributes such as
+   type: it is used to represent the type of order. by default is number
+   type = "1 or A or a or i or I"
+   start: it is used to represent starting value of order. it is always number
+       <ol type="A" start="27">
+        <li>Anjum</li>
+        <li>Raj</li>
+        <li>Shekhar</li>
+    </ol>
+
+
+ unordered lists: These lists are used to represent list items without order
+ <ul>
+       <li>Milk</li>
+       <li>Rice</li>
+       <li>Maggi</li>
+    </ul>
+    By default bullets will mark the list items
+
+Definition Lists :  These lists are used to represent definitions, hsitory of events etc..,
+Each item contains Definition term and Definition Data
+
+<dl>
+      <dt>HTML</dt>
+      <dd>Hyper Text MArkup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>JS</dt>
+      <dd>Javascript</dd>
+</dl>
+
+we can even include one list inside another list called Nested lists.
+<ol>
+    <li>I love these Books:
+        <ul>
+          <li>Harryy potter and chamber of secrets</li>
+          <li>Three mistakes of life</li>
+          <li>Ikigai</li>
+        </ul>
+    </li>
+    <li>
+        I love these movies:
+        <ul>
+            <li>Pushpa</li>
+            <li>12th Fail</li>
+            <li>Salaar</li>
+        </ul>
+    </li>
+    <li>
+        I love these Technologies:
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C#</li>
+        </ul>
+    </li>
+ </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+

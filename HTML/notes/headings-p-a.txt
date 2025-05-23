@@ -1,0 +1,83 @@
+HTML provides multiple tags to show the content.
+headings: HTML provides 6 headings ranging from h1 to h6. All heading are bold and gradually decrease in size and importance from h1 to h6
+eg: 
+<h1>Hello world</h1>
+    <h2>HEllo world</h2>
+    <h3>Hello world</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello world</h6>
+
+    it is also recommanded to use one h1 per page to increase SEO score
+
+paragraph: paragraphs are used to present the text. 
+   <p>text</p>
+   To generate dummy paragraph , use emmet "lorem"
+
+Anchor tag: Anchor tag is used to navigate from one page to another page. It is also used for different URL navigations
+
+we use 'a' tag for anchor.It has an attribute 'href'(hyper reference) contains URL values
+ <!-- anchor tag with a web link -->
+    <a href="https://google.com">click me</a>
+
+  <!-- anchor tag with link open in new tab -->
+   <a href="https://www.quora.com" target="_blank">Quora</a>
+
+  <!-- anchor tag with local links -->
+   <a href="./prasad.html">click me</a>
+
+   <a href="../first/index.html">first HTML</a>
+
+    
+  <!-- anchor tag to send mails -->
+   <a href="mailto:john@gmail.com">Mail me</a>
+
+  <!-- anchor tag to copy th number to dailpad -->
+   <a href="tel:50556556">call me</a>
+
+  <!-- anchor tag with watsapp-->
+   <a href="https://wa.me/+918179191999">whatsapp me</a>
+
+  <!-- anchor tag to download -->
+   <a href="./Dinesh_Resume.pdf" download>Download</a>
+
+
+Images :
+    Images are used to display visual representations. we use 'img' tag . img is a self closing tag means there is no closing tag for 'img'
+    These self closing elements also called void elements or empty elements or unpaired elements
+
+    img tag contains two attributes such as src and alt
+    src is used for source of the Image
+    alt is used for alternative text which will print when is src is not available
+
+    we can even set height and width using height, width attributes in img
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

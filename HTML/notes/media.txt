@@ -1,0 +1,40 @@
+Media:  we can even include audio and video media elements into HTML webpage. it was introduced in HTML5
+Media is used to represent visual presentation of data in web page
+  audio: audio can be inserted using 'audio' tag.source of the audio is mentioned using 'source' tag. highly supportive format is 'mp3'
+  <audio controls autoplay>
+        <source src="./sample.mp3">
+     </audio>
+  video:  video can be inserted using 'video' tag. source of the video is mentioned using 'source; tag. highly supportive format is 'mp4'
+  <video controls height="300" muted autoplay>
+        <source src="./2278095-hd_1920_1080_30fps.mp4">
+      </video>
+
+  Google chrome won't allow autoplay without muted
+
+  Iframe: Iframe is a powerful feature from HTML5. it provides a way to include other websites data into our websites
+  it can be used to include the data of psd, excels or 3rdpart websites
+     <iframe src="./aravind4141.pdf" height="400" width="400" frameborder="0"></iframe>
+
+     you can even include games, maps, youtube videos etc..,
+
+  Picture: Picture is a new feature in HTML5 which allows webpages to print/display images according to screen size
+  here all images will be inside 'picture' tag. Each picture source is mentioned with source and srcset attribute of source.
+  Each source will have some media attribute for dimensions
+  all dimensions should be in decreasing order and img should be the last one
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 

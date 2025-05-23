@@ -1,0 +1,19 @@
+Internet Fundamentals
+Figma
+hdh
+HTML
+-----
+   introduction
+   headings,p,a,img
+   formatting tags
+   lists
+   tables
+   block vs inline
+   semantic elements
+   media
+   symbol codes, icons
+   forms
+      -- inputs
+      -- validation
+   HTML5
+   

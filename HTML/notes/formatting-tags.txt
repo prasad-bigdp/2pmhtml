@@ -1,0 +1,23 @@
+Formatting Tags: These tags are used to format the text  such as making the text bold,italic,underlined etc..,
+    i. b -- b is used to make the text bold
+    ii. strong -- strong is also used to make the text bold but search engines understands these words as important
+    iii. i -- i is used to make the text italic
+    iv. em --  em is used to make the text italic but emphasis more on these words by search engines
+    v. u -- u is used to make the text underlined
+    vi. ins -- ins is used to make the text underlined but according to search engines, these words are inserted to the document
+    vii. s -- s is used to make text strike out
+    viii. del -- del is used to make the text strike out but search engines understands these words as deleted
+    ix. q -- q is used to make the text with quotations
+     x. mark -- mark is used to make the text highlighted as marker
+     xi.sub -- it is used to make the text as subscript
+     xii. sup -- it is used to make the text as superscript
+     xiii. code -- it is used to write the programming code 
+     xiv. pre -- it is used to print the text as it is written (with spaces)
+
+
+
+
+
+
+
+

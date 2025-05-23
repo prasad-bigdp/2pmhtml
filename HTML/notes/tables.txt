@@ -1,0 +1,47 @@
+Tables: Tables are used to represent the data in rows and columns. Horizontal ones are called Rows and vertical ones are called columns
+Whole table is inside 'table' element
+Each row of table is in 'tr' element (table row)
+The data inside each row  might be 'th' or 'td' (table heading or table data)
+The border of the table can be defined by 'border' attribute.
+All 'th' elements are bold and centered.
+<table border="10">
+        <tr>
+            <th>sno</th>
+            <th>subject name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Telugu</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>English</td>
+            <td>64</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mathematics</td>
+            <td>37</td>
+        </tr>
+    </table>
+
+To combine the rows , we can use rowspan attribute and to combine columns, we can use colspan attribute
+    <!-- table with rowspan and colspan  emmet: table>(tr>td*3)*2 -->
+    <table border="2">
+        <tr>
+            <td>1</td>
+            <td>Raj</td>
+            <td rowspan="2">25</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>shekhar</td>    
+        </tr>
+        <tr>
+            <td colspan="3">Table ending</td>
+        </tr>
+    </table>
+
+
