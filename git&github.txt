@@ -16,3 +16,14 @@ staging area: command is "git add ." or git add filename". it is used to add tha
 commit area or local repository stage : it is used to save the data as a version. Every git commit should contain a message so that anytime we can understand why that commit happened
 
    git commit -m "message" 
+
+
+
+github: git hub is a online platform which is used to share, save and deploy the code. we can also contribute other repositories
+
+setup details: 
+    git config --global user.name "username"
+    git config --global user.email "useremailid"
+
+
+Before you push , make you added all and commited all
