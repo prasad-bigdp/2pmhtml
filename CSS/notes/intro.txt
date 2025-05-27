@@ -1,0 +1,97 @@
+CSS: 
+  CSS stands for cascading styled sheets. These are used to style, design the webpages considering the pages UI and UX. 
+
+  How to connect CSS to HTML?
+  There are three kinds of CSS. They are
+  i. Inline CSS: This CSS will use 'style' as a attribute to any HTML element and it will assign different properties and values to that element.
+   <p style="background-color: blue;color: aliceblue;">Hello</p>
+
+  ii. Internal CSS : sometimes, it's difficult to style each element individually using inline CSS. at that times, to Apply group CSS, we can use , Internal CSS. This CSS will use 'style' as a element(usually defined at end of head)
+  it also contains, multiple properties and values to elements
+
+  <style>
+        p
+        {
+            background-color: blue;
+            color: white;
+        }
+        body
+        {
+         background-color: darkkhaki;
+        }
+    </style>
+
+
+   iii. External CSS:  it is exactly same as internal CSS but it will be written in separate file with extension .css and we link css to HTML using 'link' tag
+
+   <link rel="stylesheet" href="css file link" />
+
+
+   inline is always powerful and every style overrides its previous style called cascading
+
+
+   selectors:
+   To select the elements we use selectors, There are so many selectors in CSS but basic selectors are three.
+   a. tag name : we can select all elements of specific tag name using tag name selectors
+     eg: tagname
+     {
+        properties:values;
+     }
+
+   b. class name : class is a attribute to element which is used to identify the element. one element might contain multiple class names and multiple elements may have same class name.
+   classes are generally used to identify set of elements
+   To select class name , we use dot before classname
+
+  <p class="para para2">para2</p>
+  <p class="para">para3</p>
+  <p class="para2">para4</p>
+
+   .para{
+    background-color: yellow;
+    color: black;
+    }
+
+  c. id :  To select single element, we use id selector. no two elements will have same id and one element cannot have more than one id. To use id selector, we keep # before id name
+  <p class="para" id="chitti">para3</p>
+
+  #chitti{
+    background-color: darkorange;
+}
+
+ id  > class name > tag name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,5 @@
 Internet Fundamentals
 Figma
-hdh
 HTML
 -----
    introduction
@@ -16,4 +15,38 @@ HTML
       -- inputs
       -- validation
    HTML5
+
+Git & Github
+CSS
+--------
+     introduction( different types of css , basic selectors)
+     colors, fonts , units
+     Box Model (padding, margin, border, border-radius)
+     float,lists,tables
+     display - inline,block,inline-block,none
+     flexbox
+     grid
+     transitions
+     position
+     animations
+     media queries
+     advanced css
+
+git & github 2
+HTML & CSS website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
