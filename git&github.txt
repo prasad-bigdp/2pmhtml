@@ -35,3 +35,6 @@ connect repository link to local repository:
 Pushing into github:
    
    git push -u origin main/master
+
+   repeat git add . , git commit -m "message" and 
+   git push -u origin main/master
