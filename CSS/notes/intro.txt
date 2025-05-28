@@ -60,6 +60,80 @@ CSS:
 
  id  > class name > tag name
 
+Design :  
+     Design of the web page depends on its brand, target audience and context to mention..
+     For design, main things to consider are colors, fonts, units 
+
+color: color represents brand and for good design , we have colors like primary, secondary and accent in 60-30-10 ratio. colors can be choosen by 
+color wheel or below websites
+
+coolors.com
+pallentor.com
+realtimecolors.com
+
+Every colors tells a message to human called color theroy.
+In CSS , we can mention colors in different ways
+  --> colorname : we can directly assign color using its name
+  --> RGB : we can assign color by giving values of red, green , blue. each value goes from 0 to 255.
+  --> RGBA : we can RGB with some opacity ranging from 0.0 to 1.0 called alpha
+  --> Hexcode : we can assign any color using hexa decimal code followed by #
+  --> hsl : we can assign colors by using hue, saturation,lightness
+  hue -- degree of color in color wheel
+  saturation --colors towards the darkness
+  lightness  --colors towards the white
+
+  background properties:
+     we can give different colors and mix of colors to background using
+     
+     background: linear-gradient(option, color1,color2....) --> it makes background with mix of colors in linear way . option can be to left,to right, to top, to bottom or some degree
+     
+     background:radial-gradient(color1,color2..)--> it makes background with mix of colros in circular way. 
+
+     background-image: url('image path') --> it makes an image as background. by default it will repeat
+     background-repeat : repeat / no-repeat /repeat-x /repeat-y
+     background-position : left/right/center
+     background-size : auto/cover/contain
+
+
+Fonts:
+    Fonts also represents brand language. There are basically 5 types of font families are there.
+    i. serif: these fonts will have stroke at end of corners
+    
+    ii. sans-serif
+    iii. monospace
+    iv. cursive
+    v.modern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
