@@ -98,11 +98,41 @@ In CSS , we can mention colors in different ways
 Fonts:
     Fonts also represents brand language. There are basically 5 types of font families are there.
     i. serif: these fonts will have stroke at end of corners
+    eg: Times New Roman
+    ii. sans-serif : sans-serif fonts will not have stroke at the letter corners
+    eg: Arial
+    iii. monospace : monospace fonts will have equal width and height with same space like typewriter eg: courier new
+    iv. cursive : cursive fonts mimics the hand writing
+    v.modern/fantasy : modern or fantasy fonts are used for special effects like titles, animated messages etc..,
+
+How to assign font families in CSS?
+   --> we can assign font-families using 'font-family' property directly
+   --> we can embed some fonts from google fonts and import them and use them
+   ( google fonts --> select font --> get font --> get embed code --> @import)
+   --> we can download a font from dafont.com and use them using
+    @font-face{
+      font-family : familyname;
+      src:url('font path');
+    }
+
+    font-properties:
+    font-family : defines the type of font family and its name
+    font-size : defines the size of font
+    font-weight: defines the boldness of font( bold/bolder/normal /100-900)
+    font-style : defines the style of font(normal/italic/oblique)
+                 italic and oblique are similar but italic are cursive in nature
     
-    ii. sans-serif
-    iii. monospace
-    iv. cursive
-    v.modern
+
+    units :
+    There are different units to measure the size in css
+    px  -- it is the smallest unit of screen. used for smaller units
+    % -- it is used to specify % of parent
+   vh/vw -- it stands for viewport height and viewport width
+
+
+
+
+
 
 
 

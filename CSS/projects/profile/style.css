@@ -1,0 +1,46 @@
+*   /*  universal selector - these properties applies to all elements  */
+{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 10vw;
+}
+body{
+    height: 100vh;
+    background:
+    linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+#box{
+    height: 60vh;
+    max-width: 30vw;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    margin: 25vh auto;
+    background-color: white;
+    box-shadow: 10px 20px 80px rgb(77, 158, 77);
+}
+p{
+    text-align: justify;
+}
+h2{
+    text-decoration:none;
+    /* text-transform: lowercase; */
+    /* text-overflow: clip; */
+    /* text-shadow: 1px 1px red; */
+}
+h2,h3,p{
+    margin: 10px 0px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: #d9e7ff;
+    color: black;
+}
+
+
+
+

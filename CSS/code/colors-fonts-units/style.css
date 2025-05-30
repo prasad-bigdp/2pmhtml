@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@font-face {
+    font-family: prasadfont;
+    src: url('./MickeyMouse_PERSONAL_USE_ONLY.otf');
+}
+
+
+
 p{
     /* color: tomato; */
     /* color: rgb(152, 132, 33); */
@@ -6,10 +15,30 @@ p{
     /* background: linear-gradient(to bottom,red,blue,green,yellow,pink,orange,tomato); */
     /* background: linear-gradient(135deg,orange,white,green); */
    /* background:radial-gradient(black,white,black,white,black,white,black,white,black,white); */
-   background-image: url('https://media.4-paws.org/d/2/5/f/d25ff020556e4b5eae747c55576f3b50886c0b90/cut%20cat%20serhio%2002-1813x1811-720x719.jpg');
+   /* background-image: url('https://media.4-paws.org/d/2/5/f/d25ff020556e4b5eae747c55576f3b50886c0b90/cut%20cat%20serhio%2002-1813x1811-720x719.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    backdrop-filter:blur(20px);
-    height: 100vh;
+    height: 100vh; */
+}
+
+body{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 900;
+    font-style:italic;
+    
+    
+}
+#box{
+    height: 50vh;
+    width: 50%;
+    background-color: antiquewhite;
+}
+#left{
+    height: 80vh;
+    width: 80vw;
+    background-color: red;
 }

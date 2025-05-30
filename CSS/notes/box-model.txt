@@ -1,0 +1,26 @@
+Anything or Any element in HTMl is considered as Box by CSS.
+A box contains
+ border
+ border-radius
+ padding
+ margin
+
+ Border: Border is the outermost line of any element. A border contains width,style and color.
+    border : border-width border-style border-color;
+    border -style can be solid,dotted,dashed,groove etc..,
+    we can also assign specific borders like border-left,border-right,border-bottom,border-top
+ Border-radius : it represents corner radius of an element 
+    border-radius : size;
+  we can assign specific radius like border-top-left-radius,border-top-right-radius etc..,
+
+ padding : it is the gap between border and content of the element. it is always inside gap
+    padding: size;
+  we can also specify specific side padding like padding-left,padding-right etc..,
+    padding: top right bottom left;
+    padding:top/bottom left/right;
+
+ margin : it is the gap outside the element. it can be represented same as padding.
+    margin:size;
+    
+
+
