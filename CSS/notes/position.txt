@@ -1,0 +1,51 @@
+Position: Position is used to move the element on the screen . In CSS, There are 5 positions available
+  i. static: By default all elements are static. static will not have any impact of top, left,right or bottom. 
+  ii. relative : relative is used to move the elements from its current position. 
+     selector{
+        position:relative;
+        top:20px ; /* moves the element 20px towards bottom from its current position */
+     }
+
+  * In case of top:0px , it will not make any impact because it understands like moving 0px from its place
+
+ iii. Absolute : Absolute moves the element based on screen, not the current position. 
+      selector{
+        position:Absolute;
+        top:20px; /* moves the element 20px from the top of screen */
+      }
+     But it will scroll along with other contents
+
+ iv. Fixed : fixed also moves the element like Absolute but scrolling will not have impact on Fixed. it will be fixed always
+       selector{
+        position:fixed;
+        bottom:0;
+        right:0;  /* makes element right bottom corner fixed */
+               }
+
+  v.  sticky : sticky is the combination of relative and fixed. it will become fixed when its criteria met and stay until parent is about to over
+
+ selector{
+        position:sticky;
+        top:0  /* makes element fixed when it reaches top 0  */
+               }
+
+inset : inset is a short property used instead of top, left,right,bottom
+inset:10px /*all sides 10px*/
+inset: 10px 20px 30px 40px /*top right bottom left */
+
+z-index: In case if two elements contains exact absolute position, The one with more z-index will overwrite the other. default Z index is 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

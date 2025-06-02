@@ -1,0 +1,48 @@
+.mainBox{
+    height: 80vh;
+    width: 50vw;
+    border: 2px solid red;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.boxStatic{
+    background-color: orange;
+    position: static;
+    left: 100px;
+}
+.boxRelative{
+    background-color: green;
+  position: relative;
+  top: 50px;
+}
+.boxAbsolute{
+    position: absolute;
+ right: 0;
+ bottom: 0;
+ border-radius: 50%;
+}
+.first{
+    background-color: pink;
+    z-index: 2;
+}
+.second{
+    background-color: blueviolet;
+    z-index: 5;
+}
+.boxFixed{
+    background-color: blue;
+    position: fixed;
+ right: 0;
+ bottom: 20px;
+ border-radius: 50%;
+}
+.boxSticky{
+    background-color: brown;
+  position: sticky;
+  top: 20px;
+}
+
+
+

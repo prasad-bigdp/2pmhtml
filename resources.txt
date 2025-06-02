@@ -1,7 +1,36 @@
+UI & UX:
+==========
+   Figma
+   dribble, behance
+
+HTML:
+=============
+   Freecodecamp
+
+Icons
+=============
+   Fontawesome
+   Freepik , unsplash, pexels 
+
+Colors:
+=============
 coolors.com
 pallentor.com
 realtimecolors.com
 
+fonts
+=============
 dafont
 google fonts
 1001 fonts
+
+CSS
+=============
+Freecodecamp
+Frontendmentor
+clippath generator
+CSSBattle
+UIverse
+https://css-challenges.com/
+https://codepen.io/
+

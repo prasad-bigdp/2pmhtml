@@ -1,0 +1,56 @@
+body{
+   /* background: radial-gradient(green,yellow,blue);
+   height: 100vh; */
+}
+/* #box{
+    height: 50vh;
+    
+    /* background: transparent; */
+   /* background-position: center;
+    background-blend-mode:difference;
+} */
+ /* img{
+    height: 200px;
+    width: 300px;
+    filter:hue-rotate(120deg);
+    clip-path:polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    opacity: 0.3;
+ } */
+
+/* h1{
+    font-size: 60px; */
+    /* background-image: url('https://img.freepik.com/premium-vector/vector-illustrations-scenery-mountains-trees-rivers-fields-background_1093507-958.jpg?semt=ais_hybrid&w=740'); */
+    /* background: linear-gradient(135deg,orange,green);
+    color: transparent;
+    background-clip: text;
+} */
+ body{
+    height: 100vh;
+    background-color: rgb(171, 167, 167);
+ }
+ #myForm{
+    margin: 20vh auto;
+    max-width: 30vw;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 50px blue;
+    text-align: center;
+ }
+ 
+ .inputs{
+   
+ }
+ input{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 0px;
+    font-size: 18px;
+ }
+ button{
+    background-color: rgba(0, 0, 0, 0.875);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px 0px 20px 0px;
+ }
