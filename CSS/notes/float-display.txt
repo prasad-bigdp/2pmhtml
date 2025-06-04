@@ -1,0 +1,17 @@
+Float: Float is used to make an element float irrespective of its flow. it removes the element from actual flow and adjust it either left or right of next element
+
+  float doesn't provide responsivess.
+
+float: left/right/none;
+
+The next elements always wraps around the floating element.
+
+To clear the float of an element, we can use 
+  clear:left/right/both
+
+
+Display: Display is used to show the elements in a layout
+  Display:block --> makes elements as block elements , will not allow other elements beside it
+  Display : inline --> makes elements as inline elements , will allow elements side by side but will not have height or width
+  Display: inline -block --> makes elements as inline elements but also contain height & width
+  Display:none --> removes the element from actual screen

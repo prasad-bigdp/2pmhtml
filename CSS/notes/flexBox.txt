@@ -1,0 +1,1 @@
+Flex Box: Flex Box is a container which adjusts its children in single direction either row or column
