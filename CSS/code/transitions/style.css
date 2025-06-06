@@ -1,0 +1,85 @@
+#box{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: green;
+    /* animation: slideFromLeft 5s ease  infinite alternate, rotateSamePlace 0.5s ease  infinite; */
+    /* transition: all 5s ease; */
+}
+/* #box:hover{
+   transform:translateX(200px) rotate(720deg);
+   /* position: absolute;
+   top: 50%;
+   left: 50%; */
+/*} */
+.heart{
+    height: 50px;
+    width: 50px;
+    animation: fallDown 1s ease infinite alternate , heartBeat 0.1s ease infinite alternate;
+}
+@keyframes fallDown {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(500px);
+    }
+}
+.heart2{
+    animation-delay: 0.1s;
+}
+.heart3{
+    animation-delay: 0.2s;
+}
+.heart4{
+    animation-delay: 0.3s;
+}
+.heart5{
+    animation-delay: 0.4s;
+}
+.heart6{
+    animation-delay: 0.5s;
+}
+.heart7{
+    animation-delay: 0.6s;
+}
+.heart8{
+    animation-delay: 0.7s;
+}
+.heart9{
+    animation-delay: 0.8s;
+}
+
+
+@keyframes heartBeat{
+    from{
+  scale: 1.0;
+    }
+    to{
+        scale: 1.05;
+    }
+}
+
+
+/* @keyframes slideFromLeft{
+    from {
+        left: -100%;
+        height: 100px;
+    }
+    to{
+        left: 80%;
+        rotate: 360deg;
+        height: 200px;
+        width: 200px;
+    }
+}
+@keyframes rotateSamePlace{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */

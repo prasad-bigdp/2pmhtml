@@ -1,0 +1,26 @@
+Grid: Grid is used to arrange the child items in two directions i.e., row & column
+   Parent Properties:
+    display: grid-- arranges all child items into grid
+    grid-template-columns -- used to assign each column width
+    you can px, %, em, vh,vw or fr.
+    repeat(3,1fr) -- divides the grid into three parts with 1 fr value. so, each one will be 1 by 3
+    grid-template-rows -- used to assign each row width
+    justify-content: moves items along the row
+    align-items: moves items along the column
+    gap -- used for gap between the elements
+    we can also use row-gap and column-gap separetely
+
+  child-Properties: grid child items considers elements between row lines and column line. A grid of 3 rows and 3 column will have 4 row lines and 4 column lines
+
+     grid-row-start : starting rowline number
+     grid-row-end: ending rowline number
+     grid-column-start: starting column line number
+     grid-column-end: ending column line number
+
+     grid-row: grid-row-start/grid-row-end
+     grid-column: grid-column-start/grid-column-end;
+     grid-area: row start/column start/row end/column end;
+
+     order: by default all elements order is zero
+
+     

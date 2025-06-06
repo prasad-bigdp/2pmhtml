@@ -1,1 +1,18 @@
-Flex Box: Flex Box is a container which adjusts its children in single direction either row or column
+Flex Box: Flex Box is a container which adjusts its children in single direction either row or column.
+  Parent Properties : Parent element have these properties to impact child elements
+  display : flex ---> it arranges child elements into flex with default direction 'row'
+  flex-direction : row/column/row-reverse/column-reverse
+  justify-content : it moves the elements along the main axis (i.e., flex direction )  -- left/start/right/end/center/space-around/space-between/space-evenly
+  align-items : it moves the elements along the cross Axis -- start/left/end/rifht/center
+  flex-wrap: it wrap the elements forms in new lines -- nowrap/wrap/wrap-reverse
+  align-content:the wrapped lined can be adjusted using align-content -- left/start/right/end/center/space-around/space-between/space-evenly
+  gap: gap is used to define certain gap between the elements
+
+
+  child Properties:
+  order: Define the order of an element in arrangement and default order is 0.
+  flex-grow : defines the order of element to grow more when space is available
+  flex-shrink : defines the order of element to shrink more when space is not available
+  align-self : defines the movement of single element along cross axis
+
+

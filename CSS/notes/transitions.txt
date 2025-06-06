@@ -1,0 +1,1 @@
+Transition: Transition means transforming or moving from one state to another state
