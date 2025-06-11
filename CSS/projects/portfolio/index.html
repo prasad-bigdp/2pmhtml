@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -12,18 +14,51 @@
             <img src="./logo.png" alt="logo">
             <p>PRASAD</p>
         </div>
+        <div class="icon">
+            <input type="checkbox" id="check" style="display: none;" >
+            <label id="menu-icon" for="check">🍔</label>
+        </div>
         <nav>
             <ul class="menu">
                 <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2 class="title">MY PROJECTS</h2>
+        <div class="floating-watsapp">
+            <a href="https://wa.me/+91985698569">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png" alt="image">
+            </a>
+        </div>
         <section id="banner">
+            <div id="leftBanner">
+                <h1>Hello, My name is <span>PRASAD</span></h1>
+                <p class="tagline">Creative full stack web developer</p>
+                <p class="about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto aliquid quo doloribus eos sint cumque voluptatibus ullam nihil, voluptas praesentium?</p>
+                <div class="buttons">
+                 <button><a href="">Get In Touch</a></button>
+                 <button><a href="">Download</a></button>
+                </div>
+            </div>
+            <div id="rightBanner">
+                <img src="./banner.png" alt="image">
+            </div>
+        </section>
+        <h2 class="title">SKILLS</h2>
+        <section id="skills">
+            <img src="https://img.favpng.com/20/7/5/html-logo-canvas-element-javascript-png-favpng-9Zr8VThP4aQLbAyUYddQzU2rA.jpg" alt="HTML" title="HTML">
+            <img src="./css.webp" alt="CSS" title="CSS">
+            <img src="./JS.png" alt="JS" title="JS">
+            <img src="./java.webp" alt="Java" title="JAVA">
+            <img src="./python.png" alt="Python" title="Python">
+            <img src="./mysql.png" alt="MYSQL" title="MYSQL">
+            <img src="./mongoDB.png" alt="MONGODB" title="MongoDB">
+        </section>
+        <h2 class="title">MY PROJECTS</h2>
+        <section id="projects">
             <div class="child child1">
                 <img src="https://cdn.wedevs.com/uploads/2021/04/Best-project-management-software-for-web-designers.png" alt="image">
             </div>
@@ -34,7 +69,20 @@
                 <img src="https://toggl.com/blog/wp-content/uploads/2020/12/web-design-project-management-software.jpg" alt="image3">
             </div>
         </section>
+        <h2 class="title">Contact Me</h2>
+        <section id="contact">
+            <h2>Mail Me: abc@gmail.com</h2>
+            <h2>Call Me: 9152635263</h2>
+            <div class="icons">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+            </div>
+        </section>
+
     </main>
-    <footer></footer>
+    <footer>
+        <p>This website belongs to PRASAD &copy;2025</p>
+    </footer>
 </body>
 </html>

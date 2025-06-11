@@ -1,0 +1,64 @@
+/* .gp>p{
+    color: red;
+} */
+ /* .gp p{
+    color: red;
+ } */
+  /* .gp+p{
+    color: red;
+  } */
+   /* *{
+    color: red;
+   } */
+
+a[href="https://www.google.com"]{
+    color: red;
+}
+
+
+.para:hover{
+  color: green;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: violet;
+}
+
+#inp:focus{
+    outline:2px solid green;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 2px;
+}
+
+.child:nth-child(odd){
+    background-color: green;
+}
+
+
+.para::first-letter{
+    font-size: 48px;
+    color: red;
+}
+
+.para::first-line{
+    color: brown;
+}
+
+.para::selection{
+    background-color: darkgoldenrod;
+}
+
+.para::before{
+    content:'\201c'
+}
+.para::after{
+    content:'\201d';
+    font-size: 48px;
+    color: red;
+}

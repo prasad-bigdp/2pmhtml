@@ -1,0 +1,15 @@
+Media Queries: This is the fundamental concept in responsive web design, allowing you to apply differnet styles based on various conditions such as screen size , orientation or device type
+eg: @media (max-width:768px){
+    p{
+        color:red;
+    }
+}
+Common Breakpoint Ranges:
+Mobile: Up to 480px (or 768px for larger mobile devices).
+Tablet: 481px - 768px.
+Desktop: 769px - 1024px (or wider for larger screens).
+Laptop: 1025px- 1280px or 1440px. 
+Large screens : >= 1280px or >=1440px
+
+
+Always it is Best Practice to define design as Mobile first Design( first write css from mobile screen)

@@ -39,4 +39,5 @@ Games:
 ==============
 FlexBoxFroggy
 CSSGridGarden
+https://flukeout.github.io/ - CSS Diner
 

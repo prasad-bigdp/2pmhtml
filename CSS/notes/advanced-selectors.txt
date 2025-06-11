@@ -1,0 +1,29 @@
+CSS selectors are used to select an element based on different properties such as 
+  Basic Selectors:
+       tagname, .classname,#idname
+  Advanced Selectors:
+      child selector: parentSelector>childSelector -- used to select immediate child
+      descendant selector: parentSelector childSelector -- used to select descendant child
+      immediate sibling selector : element1+element2 -- used to selector element2 which is immediately after element1
+      universal selector -- * -- used to select all elements at a time
+      Atrribute selector ['attribute name'] : used to select an element based on its attribute value
+
+ Pseudo Classes : These selectors are used to select an element based on state or position of an element
+   :hover -- used to select an element when mouse hovers the element
+   :active -- used to select links when the link is clicked
+   :visited -- used to select links when the link is visited 
+   :focus -- used to select inputs which are focused
+   :first-child -- used to select elements which are first children to the parentSelector
+   :last-child -- used to select elemets which are last children to the parentSelector
+   nth-child(n) -- used to select specific numbered child
+   nth-last-child(n) -- used to select specific numbered child from last 
+   we can even select even or odd numbered children also.
+
+   we have so many other pseudo classes like :required,:optional, :enabled,:disabled, :readonly,:readwrite,:empty,:not etc..,
+
+   Pseudo Elements : These selectors are used to select a specific part of the element. These selectors uses ::
+   ::first-letter -- used to select an element's first letter of its context
+   ::first-line -- used to slect paragraphs first line
+   ::selection -- used to select the text selection in an element
+   ::before -- used to keep some 'context' before an element
+   ::after -- used to keep some 'context' after an element
