@@ -1,0 +1,38 @@
+Javascript Introduction:
+    Javascript is a versatile, dynamic programming language which is used to build function or behaviour to web pages, runs on both client and server side applications.
+    javasript is used in all major applications and 99% web occpency
+    javascript is developed and maintained by Brenden Eich in 1995at netskape navigator
+    In 1997, an organization formed alnd relaease the version
+    JS is synronous,single threaded language
+
+    Every Browser use an engine called, JS Engine is responsinle to  execute the Js code 
+    popular JS engines are v8(chrome), 
+    Firefox - JS engines are spidermonkey
+    edge-- JS engine is chakra
+
+    JS is case sensitive
+How to link js into HTML?
+we can include JS in HTML using two ways
+   i.Internal JS: Here, the JS code is between script tag as a element
+   ii. External JS: : Here, JS is taken from the External script file and link it to through
+       <script src="path" />
+
+Every Browser Provides set of tools to use in web developement called developer tools, Google Developer tools consists of elements, console, network , memory, sources, application and lighthouse
+  
+How to comment code in JS?
+we can comment code in JS using two ways
+     -- single line commenting  -- it is followed by double slash(//)
+     -- multi line commenting  -- it is between /* and */
+
+Variables: 
+    In Javascript , we can declare a variable using var,let or consists
+
+    i. var is a function scoped varible which can be redeclared, reassigned and also can be used before declaration
+    ii. let is block scoped variable which can be reassigned but cannot be redeclared or used before intialization
+    iii. const is also block scoped variable which cannot be redeclared, reassigned or used before intialization
+
+
+
+
+
+

@@ -36,6 +36,43 @@ CSS
 HTML & CSS website
 Bootstrap
 Git & Github
+Javascript
+===========
+    introduction
+  Basic Javascript:
+  ------------------
+       variables, 
+       datatypes
+       operators
+       if and switch
+       while,do while, for
+       functions
+       arrays
+       objects
+   DOM  --  creation, manipulation,updation
+   Advanced Javascript:
+   -------------------
+      Promises, fetch
+      Async await
+      Timers, AJAX
+      Libraries
+      ES6(OOP)
+      BOM
+HTML,CSS,JS Website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
