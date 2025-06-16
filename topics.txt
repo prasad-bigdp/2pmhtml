@@ -33,8 +33,9 @@ CSS
      media queries
      advanced css
 
-git & github 2
 HTML & CSS website
+Bootstrap
+Git & Github
 
 
 
