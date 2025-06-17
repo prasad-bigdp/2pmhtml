@@ -1,0 +1,42 @@
+Datatypes in JS:
+==================
+    Datatypes are used to define the type of Data. JS is a dynamically typed language. Here, datatype is defined by type of data it holds.
+    To find the typeof data, you can use 'typeof' operator
+
+There are 2 types of datatypes primarily. They are
+  a. primitive Datatypes : These datatypes are used to store single values. They are
+     i. number
+     ii. string
+     iii. boolean
+     iv. undefined
+     v. null
+  b. Non Primitive Datatypes : These datatypes are used to store collection of values . They are
+     i. arrays
+     ii. objects
+     iii. functions
+
+Type Conversion : JS can convert one datatype into another datatype called Type conversion or Typecasting. There are two ways to achieve it
+  --> Implicit typecasting:  JS can automatically convert datatypes based on operations called Implicit Typecasting
+  --> Explicit typecasting : we can force the type conversion using external classes called Explicit Typecasting
+
+i. Number: 'number' is used to represent any numerical value
+   let a=55.369;
+   console.log(typeof a) //number
+   number have default methods like 
+      toFixed(n) -- returns roundfigure value upto n decimal digits
+      toPrecision(n) -- returns roundfigure value upto n total digits
+      toString(n) -- returns string converted as base n number
+    numbers can also use Math Methods such as
+   Math.max(a,b,c...) -- returns maximum value
+   Math.min(a,b,c...) -- returns minimum value
+   Math.abs(n) -- returns always positive value
+   Math.sqrt(n) -- returns square root of n
+   Math.cbrt(n) -- returns cube root of n
+   Math.ceil(n) -- returns nearest larger interger value of n
+   Math.floor(n) -- returns nearest smaller interger value of n
+   Math.round(n) -- returns nearest interger value of n
+   Math.pow(a,b) -- returns a power b
+   Math.random() -- returns random value from 0 to 1
+
+
+
