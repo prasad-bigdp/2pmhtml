@@ -1,0 +1,54 @@
+These statements are used to control the flow of code
+i. if
+ii. switch
+// simple If:
+if(condition){
+    //statements
+}
+if__else
+if(condition){
+    //statements
+}
+else{
+    //statements
+}
+WAC to check whether given age is eligible to vote or not 
+
+if_else_if ladder
+  if(condition){
+    //statements
+  }
+  else if(condition2){
+    //statements
+  }
+  else if(condition3){
+
+  }----
+  else{
+    //statements
+  }
+
+
+switch: switch is used to handle multiple cases or options at a time
+switch(value){
+    case value1:  //statements; break;
+    case value2:  //statements; break;
+    case value3:  //statements; break;
+    case value4:  //statements; break;
+    default: //statements;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

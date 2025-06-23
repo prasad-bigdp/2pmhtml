@@ -1,0 +1,85 @@
+Loops: Loops are used to iterate certain statements until a specific condition is false
+There are ywo kinds of Loops
+  i. Entry Control Loops
+  ii. Exit Control Loops
+
+i. Entry Control Loops: These Loops are used to check the condition at the starting of the block. Only if condition is true, it will execute the block
+  eg: while, for
+
+ii. Exit Control Loops: These Loops are used to check the condition at the ending of the block.
+   eg: do while
+
+while: while is an entry Control loop which have initialization, condition and updation in separate lines
+  initialization;
+  while(condition){
+     //statements;
+     updation;
+  }
+  let i = 1;
+while (i <= 10)
+{
+    console.log(i);
+    i++;
+}
+
+do while : do while is an exit control loop which is used for initialization, conditionm updationin three different lines.
+initialization;
+do{
+    //statements;
+    updation;
+}while(condition);
+
+let q = 10;
+do
+{
+    console.log(q);
+    q--;
+} while (q >= 1);
+
+for: for is used to keep initialization, condition and updation in single lines
+for(initialization;condition;updation)
+{
+   //statements
+}
+
+for have variants such as for..of, for..in
+
+for..of : it is  used to print values of array directly 
+   for(let i of arr){
+     //statements  -- here i is the element of array
+   }
+
+for..in : it is used to print indexes of array elements
+   for(let i in arr){
+    //statements -- here i is the index of array
+   }
+
+let arr = [5,4,8,9,1]
+  // for loop
+  for(let i=0;i<arr.length;i++){
+    console.log(arr[i])   // 5  4  8  9   1
+  }
+
+  // for of loop
+  for(let i of arr){
+    console.log(i)   // 5  4  8  9   1
+  }
+ 
+  // for  in loop
+  // for loop
+    for(let i in arr){
+    console.log(arr[i])   // 5  4  8  9   1
+  }
+
+Nested Loops:
+   one loop inside another loop makes statements iterate more  called nested Loops
+
+
+
+   
+
+
+
+
+
+

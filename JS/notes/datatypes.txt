@@ -40,3 +40,63 @@ i. Number: 'number' is used to represent any numerical value
 
 
 
+ii. strings : strings are used to store a set of characters as a single variable. we can represent strings in 3 ways
+   a. single quote
+   b. double quote
+   c. backtick
+
+   There is no difference between single or double quotes but neewd each other one value inside the other value
+
+   we can make string dynamic using backtick and ${}
+   let name = "PRASAD"
+console.log(`my name is ${name}`)
+This is also called Template Literal
+
+  strings are also have default or library functions
+
+i. length  -- returns number of characters in a strings
+ii. replace -- replace the content specific position. it always replaces only first occurence;
+iii. replaceAll -- replace current ement to whole text
+iv. indexOf -- returns index of first occurence of given character
+v. lastIndexOf -- returns last Index of given character
+vi. trim() -- removes space from both ends of string
+vii. charAt() -- returns character at specific index
+viii. slice(start,end) -- returns substring from starting index to end index. end index is not included
+ix. split() -- split is used to divide the string based on delimiter
+x. concat() -- concat is used to add two strings
+xi. toUpperCase() -- used to convert given string into uppercase
+xii. toLowerCase() -- used to convert given string into lowercase
+xiii. startsWith() -- returns boolean after checking whether string is starting with given string or not
+xiv. endsWith() -- returns boolean after checking whether string is ending with given string or not
+
+Boolean: Boolean is used to store true or false. true can also be converted as 1 and false as 0.
+
+undefined:undefined represents uninitialised value. A variable that is declared but not assigned a value is undefined. Accessign a value that is not existed is also undefined
+
+null: null represents absense of any object value
+null is used to keep variables have no value
+
+what is the difference between undefined, null,empty?
+undefined is result of variable & property where the value is not initialized
+null is the value expliticity releaseend of variable
+empty is also a value 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
