@@ -1,0 +1,8 @@
+JS follows modular oriented programming. Here whole task/code is divided into smaller logical parts called functions
+functions are used for resuability and easy for debugging.
+
+function function_name(){
+    //function body
+}
+function_name()  //function call
+
