@@ -6,3 +6,89 @@ function function_name(){
 }
 function_name()  //function call
 
+eg: function sum(a,b){
+    console.log(a+b);
+}
+sum(2,3)
+
+function can take values as parameters and functions can return values
+function area(l,b){
+    return l*b;
+}
+let res= area(5,3)
+console.log(res)
+
+functions can even have default values
+function add(a,b=10){
+    console.log(a+b)
+}
+add(10);
+
+functions can also be written as function expressions. function expression is assigning an anonymous function to a variable
+  let variable = function (){
+    //body
+  }
+
+  this function expression also written as arrow function
+  let variable = () => {
+    //body
+  }
+  arrow function need not to have braces or return keyword if only one statement is present in body
+
+  function sub (a, b)
+{
+    return a - b;
+}
+const sub2 = function (a, b) { return a - b; }
+const sub3 = (a, b) =>  a - b
+
+res = sub(5, 3);
+console.log(res);
+
+
+callback functions: These functions are used to send as a parameter to another function(Higher order functions)
+function sum (a,b)
+{
+    console.log(a + b);
+}
+console.log(sum) // whole function
+function display (x)
+{
+     x(5,3)
+}
+ display(sum)
+
+//closures;
+   closure is a memory by which inner functions rememebers outer function values even after outer function execution ended. we usually use this in techiques like memorization
+function outer ()
+{
+    let i = 0;
+    function inner ()
+    {
+        i++;
+        console.log(i);
+    }
+    return inner;
+}
+res = outer();
+console.log(res)
+res(); //1
+res(); //2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
