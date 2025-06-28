@@ -49,6 +49,7 @@ Javascript
        functions
        arrays
        objects
+       
    DOM  --  creation, manipulation,updation
    Advanced Javascript:
    -------------------

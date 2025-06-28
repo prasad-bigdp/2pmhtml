@@ -1,1 +1,22 @@
-Arrays:
+Arrays: Arrays are used to store a collection or set of elements.  Here, Arrays are dynamic values. Each and ever element contains unique value called "index"
+arr[index] = elements value
+In case of out of bound, arrays wil be display"undefined.
+
+Array methods
+   There are multiple array default methtods available for basic array operations
+   i.length : it is used to return the letter of array
+   ii. push(values): it is used to insert the values at the ending of the array
+   iii.pop(): it is used to remove the last element of the array
+   iv. unshift(values) : it is used to insert values at the starting of the array
+   v. shift(): it is used first value of the array
+   vi. splice(starting index, deletCount,inserting value)
+  splice(2,0,2,4,5,6,7)
+  vii. forEach(callback fn(ele,index));
+   it is used to iterate throught the array but for cannot return value
+   viii.  map(callback fn(ele,index));
+    it is used to iterate throught the array but it can return value
+    ix. filter(callback fn(element,index)): it is used to filter out only certain values whose condition is true
+
+
+
+
