@@ -1,0 +1,28 @@
+Document Object Model(DOM):
+document: Browsers before painting the html code to screen, it converts them into 'document' object which contains tree like structure of HTML code.
+
+each element im tree is called 'node'. it treats JS as object oriented approach where object 'document' handles all elements. 
+DOM selection : Elements in DOM tree can be accessed using following methods of 'document' object
+
+   i. getElementsByTagName('tagname'): it is used to select all elements of specific tag name. it selects them as a type of array, 'HTMLCollection'
+   const x = document.getElementsByTagName('h2');
+    console.log(x[0])
+
+   ii. getElementsByClassName('className'): it is used to select all elements of specific className. it also selects them as a type of array, 'HTMLCollection'
+   const y = document.getElementsByClassName('head');
+   console.log(y[0])
+
+   iii. getElementById('id name'): it is used to select an element of specific id.
+      const z = document.getElementById("myvalue");
+       console.log(z)
+   
+   iv. querySelector('query'): it is used to select any element(first occurence ) using a query . it select only first element matching the query
+      const p= document.querySelector('.head');
+      console.log(p);
+
+   v. querySelectorAll('query'): it is used to select all elements matching a specific query. 
+   const q= document.querySelectorAll('.head');
+      console.log(q);
+
+DOM Manipulation:  we can change or manipulate the elements data using following properties of each element.
+    i. textContent: it is used to get the text inside the element
