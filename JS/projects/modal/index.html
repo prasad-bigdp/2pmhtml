@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide{
+            display: none;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        .myModal{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div id="modal" class="hide">
+        <div class="myModal">
+     <button onclick="close()">X</button>
+            <p>This is modal</p>
+        </div>
+    </div>
+    <button onclick="show()">click me</button>
+    <script src="./script.js"></script>
+</body>
+</html>

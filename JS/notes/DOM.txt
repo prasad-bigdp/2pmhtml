@@ -26,3 +26,8 @@ DOM selection : Elements in DOM tree can be accessed using following methods of 
 
 DOM Manipulation:  we can change or manipulate the elements data using following properties of each element.
     i. textContent: it is used to get the text inside the element
+    ii. innerText : it is used to get the text inside the element but it also observes CSS. so any element hidden by CSS cannot be seen by innerText.
+    iii. innerHTML : it is used to manipulate HTML code inside the element
+     iv. value : it is used to access the value of input elements.
+     v. style : it is used to change the CSS style of element
+     vi. classList : it is used to add or remove or toggle class Names
