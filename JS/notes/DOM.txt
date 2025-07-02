@@ -31,3 +31,10 @@ DOM Manipulation:  we can change or manipulate the elements data using following
      iv. value : it is used to access the value of input elements.
      v. style : it is used to change the CSS style of element
      vi. classList : it is used to add or remove or toggle class Names
+
+3. DOM creation :  we can create an element of html using 'createElement' and append/add it using 'append' or 'appendChild'
+   const ele = document.createElement('element name')
+
+   element1.append(element2) //append is used for multiple Elements
+
+   element1.appendChild(element2) //appendChild is used for single element
