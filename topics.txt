@@ -51,6 +51,7 @@ Javascript
        objects
        
    DOM  --  creation, manipulation,updation
+   events
    Advanced Javascript:
    -------------------
       Promises, fetch
