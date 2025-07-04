@@ -1,20 +1,35 @@
-Javascript allows events(user actions) to trigger particular function. There are different ways of adding an event to html elements
-    i. event handlers: These are properties of HTML elements directly can be added in HTML like onclick
-       <h1 onclick="fun()">click me</h1>
-       if we click h1 , it calls fun function
+Events:Events are the user's actions to trigger a function.
+Events can be represented in two ways
+   i. Event handlers
+   ii. Event eventListeners
 
-    ii. event Listener: eventListeners allows you to add or remove an event and allows us to add or remove multiple triggers to an element. it takes two arguments (event name,callback function).
-       const btn = document.getElementById("btn");
-btn.addEventListener('click', display)
+i. Event Handlers: They are used in HTML as a property of HTML elements. They trigger a function to JS
+   <button onclick="fun()">click me </button>
+   it triggers JS function "fun"
 
-   Event Listener can handle multiple functions on a single event and also can remove event when it is necessary
+ii. Event Listeners: They are used to add or remove multiple events or multiple functions triggered by single event.
+   const btn = document.getElementById('btn');
+   btn.addEventListener('click',fun)
+    btn.addEventListener('click',fun2)
 
-There are different types of events in JS such as
-    i. mouse events : These events are triggered by user's action using mouse
-    eg: mouseover,mouseout,click,dblclick,mouseup,mousedown
-    ii. keyboard events: These events are triggered by users's action using keyboard .
-    eg:keypress, keyup,keydown .
-    'keypress' is deprecated
-    iii. form events: These events are triggered by user's actions using form elements like input data, select a value, change a value or submit the form etc..,
-    iv. window events: These events are general events such as  page loading, page unloading, resize the page, scroll the page
-    eg: resize, load,DOMcontentLoaded,abort,scroll
+    we can call multiple functions by single event and we can even remove those event
+
+Types of Events: 
+   There are different types of events in JS such as
+   i. Mouse Events : These events are triggered by user mouse actions.
+     Eg: click, dblclick,mouseover,mouseup,mousedown,mouseout
+
+   ii. Keyboard Events: These events are triggered by user keyboard actions
+     Eg: KeyUp,KeyDown
+
+    iii. form events : These events are triggered by user input actions or form actions
+    eg: input, select, change, submit, reset
+
+    iv. window events: These events are triggered by user general actions 
+    Eg: scroll,load, DOMcontentLoaded,abort
+
+
+Event Propogation: Events are always propogated from inner element to outer element . This default behaviour is called Bubbling in Event Propogation
+
+we can reverse the process as from outer to inner called capturing. we can achieve it by making third argument as true in add event Listener
+

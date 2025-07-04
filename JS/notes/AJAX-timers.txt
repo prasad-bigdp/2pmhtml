@@ -1,0 +1,26 @@
+AJAX(Asynchronous Javascript): AJAX allows webpages loads the data with reloading the entire page.AJAX allows us to send Requests to the server and display the responses from server without loading the webpage entirely
+  Eg: Match score in crickbuzz, cart added feature in ecommerce , function with timers etc..,
+
+How AJAX works?
+  1. Request Creation
+  2. sent the request to the server
+  3. server analyze the request
+  3. receive sender's Response
+
+
+  To understand AJAX in detail,we need to know timers and Proimses
+
+Timers:
+   Timers are used to assign a specific time to trigger a function. There are two default timers available in browser
+   i. setTimeout(callback fn, time in milliseconds)
+         it is used to delay the execution of a function for specific period of time.
+
+         setTimeout(function ()
+          {
+          console.log("hello")
+          }, 0)
+
+   ii. setInterval(callback fn, time in milliseconds)
+          it is used to execute the function after every interval
+          
+

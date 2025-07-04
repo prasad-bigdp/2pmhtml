@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            height: 500vh;
+        }
+    </style>
 </head>
 <body>
+   <div id="gp" style="height: 300px;width: 300px;border: 1px solid red;">
+    <div id="p" style="height: 200px;width: 200px;border: 1px solid red;">
+        <div id="c" style="height: 100px;width: 100px;border: 1px solid red;">
+            <button id="b">click me</button>
+        </div>
+    </div>
+   </div>
+
+    <form action="">
+        <input type="text" id="inp" placeholder="Enter the name" />
+    </form>
+    <p>I'm Typing  <span id="typeText"></span></p>
+    <p>Will you Complete the portfolio on time</p>
     <p id="count">0</p>
-    <input type="text" id="inp">
-    <button id="btn">click me btn</button>
-    <button onclick="display()">click me</button>
+    <button><a href="./source.gif">YES</a></button>
+   <button id="btn">No</button>
     <script src="./script.js"></script>
 </body>
 </html>
