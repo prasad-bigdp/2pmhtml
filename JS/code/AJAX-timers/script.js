@@ -43,6 +43,8 @@ let c = 10;
 //         }
 //    },1000)
 // })
+arr = [5, 3];
+arr.map()
 
 setInterval(() =>
 {
