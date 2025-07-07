@@ -1,0 +1,66 @@
+Promise : Promises  represents a values that may not be available yet but may or maynot received later
+we can create a Promise using 'Promise' constructor
+
+Before Promises, callbacks were used to resolve asynchronous operations. but it leads to the error "callback hell" or "pyramid of Doom"
+
+Every Promise will have three states:
+  i. pending
+  ii. fulfilled
+  iii. rejected
+
+  let mood = "bad";
+let P = new Promise(function (resolve,reject)
+{ 
+    if (mood == "good")
+    {
+        setTimeout(() => resolve("take 1 lakh"), 5000)    
+    }
+    else
+    {
+        setTimeout(() => reject("i don't wanna give"), 5000)    
+    }
+})
+
+//frontend
+P
+    .then((res) => console.log(res))
+    .catch((err)=>console.log(err))
+
+Promises can be combined with another promises called Promise chaining.Each .then combines with the next .then value.
+//another promise
+let x = new Promise((resolve, reject) =>
+{
+    resolve(20);
+})
+//handling the promise
+x
+    .then((res) => res * 2)
+    .then((res) => res * 4)
+    .then((res) => console.log(res))
+    .catch((err) => console.log(err))
+
+
+where do we Promises?
+   Promises are used in
+      a. client - server request and responses
+      b. Timers
+      c. any function that takes time or not execute immediately
+
+Fetch:
+    fetch is the default method provided by browsers which is used for API transactions.  API stands for Application Programming Interface. It Build the gap between frontend and Backend
+    To access data through API endPoint or to Post the data to certain end point or to delete,update dat to enpoint, we use 'fetch'.
+
+    The link or url that contains the data is called  "endpoint"
+
+    get data through endpoint
+       fetch(endpoint)
+
+
+
+
+
+
+
+
+
+
