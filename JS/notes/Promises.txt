@@ -55,6 +55,36 @@ Fetch:
     get data through endpoint
        fetch(endpoint)
 
+    fetch returns promises which can be handled by then and catch but fetch cannot resolve directly the json data. so the response again tramsformed to actual JSO which result again another promise , creates promise chaining
+    fetch('link')
+    .then((res)=>res.json())
+    .then((data)=>console.log(data))
+    .catch((err)=>console.log(err))
+
+    fetch can also do POST,PUT,DELETE request
+    fetch('link',{ "method":'POST/PUT/DELETE",body:data    })
+    .then((res)=>res.json())
+    .then((data)=>console.log(data))
+    .catch((err)=>console.log(err))
+
+Async Await:  Async await is a way to write asynchronous code that is easier to read and main. Instead of then. catch approach of promises, async await follows linear approach using keywords 'async' and 'await'.
+
+promise syntax:
+    fetch('link')
+    .then((res)=>res.json())
+    .then((data)=>console.log(data))
+    .catch((err)=>console.log(err))
+
+async await
+   async function functionName(){
+       try{
+        const res = await fetch('link');
+       const data = await res.json();
+       }
+       catch(err){
+        console.log(err)
+       }
+   }
 
 
 
