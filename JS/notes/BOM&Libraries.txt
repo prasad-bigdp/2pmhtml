@@ -1,0 +1,23 @@
+Library: Library is a Pre written code which is used for specific Purposes.There are tons of JS libraries which can be attached using cdn links and use it for multiple purposes. 
+   The most popular JS libraries are:
+    JQuery
+    GSAP
+    AOS
+    Typed
+    slick/owl carousel/swiper
+    chart JS etc..,
+
+BOM(Browser Object Model): complete Javascript is actual maintained by an object called 'window'. window object actually runs JS engine. it alos contains methods like fetch, setTimeOut,setInterval and properties like console,document
+window object also provides lot of things such as clipboard,media devices, geolocation and storage. The popular storages are localStorage and sessionStorage
+
+localStorage: it is used to save certain data as key value pairs in the browsers. Here key will be always string. Even after browser instance is closed and opened again, the will stay in browser memory by localStorage
+localStorage.setItem("key",value);
+to remove the item , we can use
+localStorage.removeItem("key");
+To get the item, we can use
+localStorage.getItem("key");
+To clear complete localStorage, we can use
+localStorage.clear();
+
+sessionStorage : it is also similar to localStorage but it cannot be saved once browser is closed.
+
