@@ -1,0 +1,63 @@
+ES6:"EcmaScript" decides the standard in scripting languages and releases new versions with different new features into scripting languages. ES6 version released in 2015 but it brought lot of new features such as "template literals","arrow functions", "default parameters ","rest and spread parameters","array and object destructuring" and OOP and "modules"
+"rest and Spread":
+        Rest operator is used to take rest of elements and combine them as array.
+        //rest
+function sum (a, ...b)
+{
+    console.log(a,b)
+}
+sum(4, 5, 6, 7, 8, 9);
+
+let [a,...b]=["raj","shekhar","john"]
+rest operator is denoted by three dots and is always last value
+
+spread operator: it is used to spread the arrayData
+//spread operator
+let arr = [4, 5, 6];
+let p = [2, ...[4,5,6], 9]; //[2,4,5,6,9]
+
+Array and Object Destructuring: we can separate array or object properties as separate values 
+a = [5, 4, 6];
+let [q, r, s] = a;
+let obj={
+    name: "prasad",
+    age:55
+}
+let { age } = obj; //let age =obj.age
+console.log(age);
+
+Module System: In the Evolution of JS, there are different module systems such as common js, require js but ES6 brought new module system "ES6 module System"
+We can achieve communication between multiple js files using "import","export" keywords
+
+import {values} from 'path'   -- named import
+import data from 'path'   -- default import
+
+export default data  --default export
+export {values} -- named export
+
+OOP(object oriented Programming):
+   object is physical entity that contains properties and methods
+   class is a collection of objects that is used to provide template for objects
+   class Fruit
+{
+    taste; color; shape;
+    constructor(a,b,c)
+    {
+        this.taste = a;
+        this.color = b;
+        this.shape = c;
+    }
+}
+let apple = new Fruit("sweet", "red", "round");
+let banana = new Fruit("sweet", "yellow", "cylinder")
+console.log(apple)
+
+
+
+
+
+
+
+
+
+
